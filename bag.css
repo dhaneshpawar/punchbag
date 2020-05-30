@@ -1,0 +1,25 @@
+body{
+    background-color: yellow;
+}
+.container{
+    text-align: center;
+}
+
+.outer{
+    border: 3px solid black;
+    height: 15px;
+    width: 300px;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.inner{
+    background: crimson;
+    height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
