@@ -1,0 +1,22 @@
+jQuery cdn
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+
+Materilised css cdn
+
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ 
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+links to learn 
+
+For HTML  : https://www.w3schools.com/html/
+
+for CSS  : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
+
+for javascript and jquery : https://www.w3schools.com/js/default.asp
+
+for Materilised : https://materializecss.com/
