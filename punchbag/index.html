@@ -5,10 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+             
 </head>
 <body>
+
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo"> &nbsp;&nbsp;The Punch Bag Game</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Sass</a></li>
+        <li><a href="badges.html">Components</a></li>
+        <li><a href="collapsible.html">JavaScript</a></li>
+      </ul>
+    </div>
+  </nav>
+        
     <div class="container">
-        <img id="bagimg" onclick="punch()" src="bag.png" alt="Bag Image">
+        <img id="bagimg"  src="bag.png" alt="Bag Image">
 
         <div id="outer">
             <div id="inner"></div>
@@ -19,9 +36,72 @@
         <button onclick="punch()" ondblclick="dblpunch()" id="punch">Punch</button>
         <button onclick="restart()">Restart</button>
         <br><br>
-        <p> &copy; Made by Dhanesh Pawar</p>
+
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel grey lighten-5 z-depth-1">
+              <div class="row valign-wrapper">
+                <div class="col s2">
+                  <img src="1.png" style="height: 125px;background-color: green;" alt="" class="circle responsive-img"> <!-- notice the "circle" class -->
+                </div>
+                <div class="col s10">
+                  <span class="black-text">
+                    This is a square image. Add the "circle" class to it to make it appear circular.
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
     </div>
 
-    <script src="index.js"></script>
+    <div class="row">
+        <div class="col offset-s3 ">
+            <iframe width="500" height="500" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+    </div>
+        
+     <!-- Scaled in -->
+  <a id="scaledemo1" href="#!" class="btn-floating btn-large scale-transition">
+    <i class="material-icons">add</i>
+  </a>
+
+  <!-- Scaled out -->
+  <a id="scaledemo" href="#!" class="btn-floating btn-large scale-transition scale-out">
+    <i class="material-icons">add</i>
+  </a>
+ 
+  
+  <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1">Test 1</a></li>
+        <li class="tab col s3"><a class="active" href="#test2">Test 2</a></li>
+        <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
+        <li class="tab col s3"><a href="#test4">Test 4</a></li>
+      </ul>
+    </div>
+    <div id="test1" class="col s12">Test 1</div>
+    <div id="test2" class="col s12">Test 2</div>
+    <div id="test3" class="col s12">Test 3</div>
+    <div id="test4" class="col s12">Test 4</div>
+  </div>
+        
+   <!-- Dropdown Trigger -->
+   <a class='dropdown-trigger btn' href='#' data-target='dropdown1'>Drop Me!</a>
+
+   <!-- Dropdown Structure -->
+   <ul id='dropdown1' class='dropdown-content'>
+     <li><a href="#!">one</a></li>
+     <li><a href="#!">two</a></li>
+     <li class="divider" tabindex="-1"></li>
+     <li><a href="#!">three</a></li>
+     <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+     <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+   </ul>
+         
+ <script src="index.js"></script>
+         <!-- Compiled and minified JavaScript -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ 
 </body>
 </html>

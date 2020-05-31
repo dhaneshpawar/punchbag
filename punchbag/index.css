@@ -1,16 +1,19 @@
 body{
     margin: 0;
+    background-color: yellow;
 }
 .container{
-    background-color: yellow;
     text-align: center;
     padding: 0 10% 10%;
 }
 img{
     cursor: pointer;
+    /* transform: rotate(30deg); */
+    -webkit-transition: transform 0.1s ease;
 }
+
 #outer{
-    background: yellow;
+    /* background: yellow; */
     height: 15px;
     width: 300px;
     border: 3px solid black;

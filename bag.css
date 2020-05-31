@@ -18,6 +18,10 @@ body{
     height: 100%;
     width: 100%;
 }
+img{
+    -webkit-transition: transform 0.1s ease;
+    cursor: pointer;
+}
 
 a{
     text-decoration: none;
