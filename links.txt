@@ -27,3 +27,13 @@ for CSS  : https://developer.mozilla.org/en-US/docs/Web/CSS/Reference
 for javascript and jquery : https://www.w3schools.com/js/default.asp
 
 for Materilised : https://materializecss.com/
+
+
+
+frontend -  html css js / jquery - image
+can send req to backend
+backend - nodejs , php , java- jsp , python- django
+database - mongodb or sql
+
+send something backend to frontend
+socket.io
